@@ -1,3 +1,8 @@
+.header {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .navbar{
     padding-left: 100px;
 }
@@ -7,7 +12,7 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     padding: 8px;
-    float: left;
+    margin-left: 6.5%;
 }
 
 #navbarNav{
@@ -20,7 +25,7 @@
     border-color: #cccccc;
     border-style: solid;
     border-width: 1.5px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     margin: auto;
 }
 
