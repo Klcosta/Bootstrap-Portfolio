@@ -1,23 +1,45 @@
 .header {
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 100%;
+    background: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
 }
 
-.navbar{
-    padding-left: 100px;
+.header2 {
+    width: 100%;
+    background: #ffffff;
 }
-
-.navbar-brand{
-    background-color: #4aaaa5;
+h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
+    font-weight: bold;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
     padding: 8px;
-    margin-left: 6.5%;
+    margin-bottom: 0px;
+    margin-top: 8px;
 }
 
-#navbarNav{
-    float: right;
+.nav{
+    text-align: right;
 }
+
+a{
+    text-decoration: none;
+    font-family: 'Helvetica Neue';
+    color: #777777;
+    padding: 0px 8px 0px 8px;
+    list-style: none;
+    float: right;
+    margin-left: 15px;
+    padding-top: 20px;
+ }
+
+a:hover {
+    color: #4aaaa5;
+  }
 
 .bodycopyport {
     padding: 20px;
@@ -27,6 +49,7 @@
     border-width: 1.5px;
     margin-bottom: 30px;
     margin: auto;
+    margin-top: 60px;
 }
 
 h2 {
@@ -47,3 +70,10 @@ h2 {
     padding: 15px;
     float: left;
 }
+
+p {
+    font-family: 'Helvetica Neue';
+    color: #777777;
+    padding: 15px;
+    line-height: 18px;
+ }
