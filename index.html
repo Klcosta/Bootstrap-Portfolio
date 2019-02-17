@@ -5,28 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
         integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/indexstyle.css">
     <title>About Me</title>
 </head>
 
-<body style="background-image: url(organic-tiles.png)">
-    <div class="fixed-top header">
-        <div class="container header2">
-            <div class="row">
-                <div class="col-md-5">
-                    <h1>Keith Costa</h1>
-                </div>
-                <div class="col-7 d-flex flex-row-reverse">
-                        <a href=contact.html>Contact</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href=index.html>About Me</a>
-                </div>
-            </div>
+<body style="background-image: url(assets/images/organic-tiles.png)">
+    <nav class="header navbar navbar-expand-sm navbar-light bg-light pb-0">
+        <h1>Keith Costa</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-12 bodycopyport">
@@ -37,7 +53,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img class="image1" src=IMG_7822-1024x768.jpg alt="image of me" />
+                        <img class="img-fluid image1" src=assets/images/IMG_7822-1024x768.jpg alt="image of me"/>
                         <p>
                             Hello,
                             <br><br>
